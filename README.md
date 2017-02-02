@@ -141,6 +141,8 @@ thin start -p 3001 --ssl --ssl-key-file .ssl/server.key --ssl-cert-file .ssl/ser
 
 'Thin start -p 3001' will start your local host on port 3001. You will need to run the command in step 6.) in your application's directory. After it has started open your browser and visit 'localhost:3001'.
 
+You will also need to visit your Census application profile and add "https://localhost:3001/auth/census/callback" to the list of redirect URLs.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/bcgoss/omniauth-census.
