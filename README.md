@@ -136,7 +136,7 @@ $ echo "127.0.0.1 localhost.ssl" | sudo tee -a /private/etc/hosts
 
 # 6) To start the SSL webserver open another terminal window and run
 
-thin start -p 3001 --ssl --ssl-key-file .ssl/server.key --ssl-cert-file .ssl/server.crt
+thin start -p 3001 --ssl --ssl-key-file ~/.ssh/server.key --ssl-cert-file ~/.ssh/server.crt
 ```
 
 'Thin start -p 3001' will start your local host on port 3001. You will need to run the command in step 6.) in your application's directory. After it has started open your browser and visit 'localhost:3001'.
