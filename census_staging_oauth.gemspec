@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/census/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-census-production"
+  spec.name          = "omniauth-census-staging"
   spec.version       = Omniauth::Census::VERSION
   spec.authors       = ["PlanetEfficacy"]
   spec.email         = ["jspevack@gmail.com"]
